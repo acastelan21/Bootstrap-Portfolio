@@ -1,0 +1,68 @@
+body{
+    font-family: monospace;
+    background-image: url(../images/halftone.png);
+    margin:0 auto;
+    font-size: 18x;
+
+
+}
+.container {
+    width:100%;
+    width:960px;
+    background:#ffffff;
+    margin-top:0 auto;
+
+
+
+}
+
+header {
+    
+    
+    width:239px;
+    height:100%;
+    padding:11px;
+    margin-left: 323px;
+    color: #ffffff;
+    background: #4aaaa5;
+    text-align: center;
+    
+        
+
+}
+
+.col-md-6 {
+    padding-left:0;
+    background: #ffffff;
+}
+.row {
+    margin-bottom:20px;
+    position: relative;
+    
+
+}
+.bg-light{
+    background-color: #ffffff!important;
+
+
+
+}
+footer{
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+      
+}
+
+h2 {
+    font-size: 24px;
+}
+
+
+
