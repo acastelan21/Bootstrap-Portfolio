@@ -9,7 +9,6 @@ body{
 .container {
     width:100%;
     width:960px;
-   
     margin-top:0 auto;
 
 
@@ -29,10 +28,10 @@ h2 {
 
 header {
     
-    
+    margin:auto;
     width:239px;
     height:100%;
-    padding:11.3px;
+    padding:10px;
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;
@@ -128,3 +127,4 @@ form {
     margin: 20px 
     
   }
+
