@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
-    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Alvaro's Page-Portfolio</title>
 
 </head>
@@ -21,7 +21,7 @@
         <div class="row">
             <!--Column 1 Header-->
             <div class="col-md-6">
-                <header>Alvaro Castelan</header>
+                <header style="font-size: 24px">Alvaro Castelan</header>
             </div>
             <!--Column 2 navBar-->
             <div class="col-md-6">
@@ -30,55 +30,55 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="font-size: 18px">
                         <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="#">About Me
+                            <a class="nav-item nav-link active" href="#">About Me</a>
+                            <a class="nav-item nav-link" href="#">Portfolio |
                                 <span class="sr-only">(current)</span>
-                            </a>
-                            <a class="nav-item nav-link" href="#">Portfolio
-                                    <span class="sr-only">(current)</span>
                             </a>
                             <a class="nav-item nav-link" href="#">Contact Me</a>
                         </div>
                     </div>
                 </nav>
             </div>
+
         </div>
     </div>
-    <!--ROW 2 Header Portfolio-->
-    <div class="row">
-        <h2>Portfolio</h2>
-    </div>
-
-    <!--ROW 3 Games-->
-    <div class="row">
-        <div class="hangman">
-            <img class="portfolioPics" src="assets/images/placeImage1.jpg" alt="placeholder image 1">
-            <p class="gameName">Hangman</p>
+    <div class="container" style="background: #ffffff;overflow: auto;">
+        <!--ROW 2 Header Portfolio-->
+        <div class="row">
+            <h2>Portfolio</h2>
         </div>
 
-        <div class="rpgGame">
-            <img class="portfolioPics" src="assets/images/placeImage2.jpg" alt="placeholder image 2">
-            <p class="gameName">RPG Game</p>
+        <!--ROW 3 Games-->
+        <div class="row" style="padding:0px 130px">
+            <div class="portfolioPics">
+                <img src="assets/images/placeImage1.jpg" alt="placeholder image 1">
+                <h3>Hangman</h3>
+            </div>
+
+            <div class="portfolioPics">
+                <img src="assets/images/placeImage2.jpg" alt="placeholder image 2">
+                <h3>RPG Game</h3>
+            </div>
+
+            <div class="portfolioPics">
+                <img src="assets/images/placeImage3.jpg" alt="placeholder image 3">
+                <h3>Trivia Game</h3>
+            </div>
+
+            <div class="portfolioPics">
+                <img src="assets/images/placeImage4.jpg" alt="placeholder image 4">
+                <h3>Rutgers</h3>
+            </div>
+
+            <div class="portfolioPics">
+                <img src="assets/images/placeImage5.jpg" alt="placeholder image 5">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+
         </div>
-
-        <div class="triviaGame">
-            <img class="portfolioPics" src="assets/images/placeImage3.jpg" alt="placeholder image 3">
-            <p class="gameName"> Trivia Game</p>
-        </div>
-
-        <div class="rutgersInfoWidget">
-            <img class="portfolioPics" src="assets/images/placeImage4.jpg" alt="placeholder image 4">
-            <p class="gameName">Rutgers Info Widget</p>
-        </div>
-
-        <div class="rockPaperScissors">
-            <img class="portfolioPics" src="assets/images/placeImage5.jpg" alt="placeholder image 5">
-            <p class="gameName">Rock Paper Scissors</p>
-        </div>
-
-    </div>
-
+    </div>  
     <footer>
         <p>Copyright&copy;</p>
     </footer>
